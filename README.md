@@ -6,6 +6,9 @@ A custom Python add-on for Blender that procedurally generates parametric hangin
 
 ## 🧠 Engineering Walkthrough & Features
 
+![Smart Cable Generator 2.0 UI](ui_screenshot.jpg)
+
+
 ### 1. Mid-Air Mathematical Pathing
 Initially prototyped as a topology-hugging Dijkstra algorithm, the tool was rewritten to use a global-space mathematical approach (`matrix_world @ v.co`). This allows artists to enter Multi-Object Edit Mode and connect vertices across entirely different, disconnected modular buildings.
 
